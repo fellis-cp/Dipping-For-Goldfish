@@ -1,15 +1,15 @@
 [gd_scene load_steps=7 format=3 uid="uid://8d6vo3aalfee"]
 
 [ext_resource type="Script" path="res://scripts/enemy.gd" id="1_4lyqb"]
-[ext_resource type="Texture2D" uid="uid://cel513wglmtm" path="res://assets/blue_beetle.png" id="1_nn2ci"]
-[ext_resource type="Texture2D" uid="uid://brhog1m1jtuq2" path="res://assets/red_beetle.png" id="2_qxhiy"]
-[ext_resource type="Texture2D" uid="uid://bf7lnf0fq17ws" path="res://assets/fish.png" id="4_icqk4"]
+[ext_resource type="Texture2D" uid="uid://dpc8f7m8slrvk" path="res://assets/fish3Texture.png" id="2_ctxxx"]
+[ext_resource type="Texture2D" uid="uid://b5dsxe7dn5mje" path="res://assets/fish2Texture.png" id="3_krrtf"]
+[ext_resource type="Texture2D" uid="uid://v46kcanvohe6" path="res://assets/fish1Texture.png" id="4_3vwee"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cd4w2"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_nn2ci")
+"texture": ExtResource("2_ctxxx")
 }],
 "loop": true,
 "name": &"blue_beetle",
@@ -17,7 +17,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_qxhiy")
+"texture": ExtResource("3_krrtf")
 }],
 "loop": true,
 "name": &"red_beetle",
@@ -25,7 +25,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4_icqk4")
+"texture": ExtResource("4_3vwee")
 }],
 "loop": true,
 "name": &"yellow_beetle",
@@ -41,9 +41,9 @@ gravity_scale = 0.0
 script = ExtResource("1_4lyqb")
 
 [node name="anim" type="AnimatedSprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.8, 0.8)
 sprite_frames = SubResource("SpriteFrames_cd4w2")
-animation = &"yellow_beetle"
+animation = &"blue_beetle"
 
 [node name="collision" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 0)

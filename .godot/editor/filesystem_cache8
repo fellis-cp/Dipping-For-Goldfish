@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719324055
+::res://::1719326734
 btn_styles.tres::StyleBoxFlat::5628162586034982409::1719323017::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1719323017::0::1::::<><>::
 icon.svg::CompressedTexture2D::3468784845933976024::1719323017::1719323045::1::::<><>::
-main.tscn::PackedScene::6261559116501813110::1719324055::0::1::::<><>::uid://dtchssdwcqx8y::::res://prefabs/player.tscn<>res://scripts/main.gd<>uid://8d6vo3aalfee::::res://prefabs/enemy.tscn<>res://shaders/scrolling_bg.gdshader<>uid://bdfl02ttuamum::::res://prefabs/hud.tscn<>uid://bt6xlwitqoprw::::res://sounds/gameover.wav<>uid://dllsfuffoylqu::::res://sounds/Slower-Tempo-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3<>uid://cqvqmjo0hwop5::::res://sounds/jumping.wav<>uid://cnvb8bacbembp::::res://assets/f8feae25f0ca234a3b69d038f26bba6d.png
+main.tscn::PackedScene::6261559116501813110::1719326734::0::1::::<><>::uid://dtchssdwcqx8y::::res://prefabs/player.tscn<>res://scripts/main.gd<>uid://8d6vo3aalfee::::res://prefabs/enemy.tscn<>uid://bdfl02ttuamum::::res://prefabs/hud.tscn<>uid://bt6xlwitqoprw::::res://sounds/gameover.wav<>uid://dllsfuffoylqu::::res://sounds/Slower-Tempo-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3<>uid://cqvqmjo0hwop5::::res://sounds/jumping.wav
 README.md::TextFile::-1::1719323017::0::1::::<><>::
 ::res://addons/::1719323017
 ::res://addons/virtual_joystick/::1719323045
@@ -20,14 +20,18 @@ test.tscn::PackedScene::3566301953465693758::1719323017::0::1::::<><>::uid://dmr
 joystick_base_outline.png::CompressedTexture2D::3288008411285325467::1719323017::1719323045::1::::<><>::
 joystick_tip.png::CompressedTexture2D::3132432681801126628::1719323017::1719323045::1::::<><>::
 joystick_tip_arrows.png::CompressedTexture2D::8548255698028078709::1719323017::1719323045::1::::<><>::
-::res://assets/::1719324159
+::res://assets/::1719326803
 12.png::CompressedTexture2D::8263372904869509149::1719324154::1719324161::1::::<><>::
 bg1.jpeg::CompressedTexture2D::3295272433589446514::1719321395::1719323125::1::::<><>::
 bg2.png::CompressedTexture2D::3259345667601163161::1719323017::1719323045::1::::<><>::
 bg.png::CompressedTexture2D::2238660106244251833::1719323017::1719323045::1::::<><>::
 blue_beetle.png::CompressedTexture2D::149358068899553466::1719323017::1719323045::1::::<><>::
 f8feae25f0ca234a3b69d038f26bba6d.png::CompressedTexture2D::5728767968323234897::1719323949::1719323951::1::::<><>::
-fish.png::CompressedTexture2D::2804116393740849838::1719312364::1719323124::1::::<><>::
+fish1Texture.png::CompressedTexture2D::1535732861647205283::1704687322::1719326482::1::::<><>::
+fish2Texture.png::CompressedTexture2D::4499413364907874694::1704687198::1719326482::1::::<><>::
+fish3Texture.png::CompressedTexture2D::8218237751697459632::1704687244::1719326482::1::::<><>::
+fish4Texture.png::CompressedTexture2D::7580702292660189576::1704687400::1719326482::1::::<><>::
+fish.png::CompressedTexture2D::2804116393740849838::1719326803::1719326807::1::::<><>::
 game-title.png::CompressedTexture2D::6460561579186461562::1719323017::1719323046::1::::<><>::
 player_down-01.png::CompressedTexture2D::1306026053507098726::1719323017::1719323045::1::::<><>::
 player_down-02.png::CompressedTexture2D::549052253574685980::1719323017::1719323045::1::::<><>::
@@ -42,17 +46,17 @@ red_beetle.png::CompressedTexture2D::3594943807819105139::1719323017::1719323045
 yellow_beetle.png::CompressedTexture2D::2341890751475157119::1719323017::1719323045::1::::<><>::
 ::res://font/::1719323045
 Super Smash TV.ttf::FontFile::2030474481718177472::1719323017::1719323045::1::::<><>::
-::res://prefabs/::1719323987
-enemy.tscn::PackedScene::2324345480346875128::1719323987::0::1::::<><>::res://scripts/enemy.gd<>uid://cel513wglmtm::::res://assets/blue_beetle.png<>uid://brhog1m1jtuq2::::res://assets/red_beetle.png<>uid://bf7lnf0fq17ws::::res://assets/fish.png
-hud.tscn::PackedScene::2608023083517302724::1719323987::0::1::::<><>::res://scripts/hud.gd<>uid://cmglar6q1aa6l::::res://btn_styles.tres<>uid://36tvaqe8dtvc::::res://font/Super Smash TV.ttf<>uid://bq2sqb1u1l5ve::::res://addons/virtual_joystick/test/test.tscn
-player.tscn::PackedScene::8497436950007315830::1719323987::0::1::::<><>::res://scripts/player.gd<>uid://cygv6va07a827::::res://assets/player_idle-01.png<>uid://pprymfll6xm8::::res://assets/player_idle-02.png<>uid://2hytw5mf332::::res://assets/player_idle-03.png<>uid://ders0i18yuvii::::res://assets/player_move-01.png<>uid://ddhvkm02crdyg::::res://assets/player_move-02.png<>uid://suwb8m78h7ty::::res://assets/player_down-01.png<>uid://h272s26e08hc::::res://assets/player_down-02.png<>uid://bv22jkmqp6855::::res://assets/player_up-01.png<>uid://dil2qiwuadvwv::::res://assets/player_up-02.png
-::res://scripts/::1719323017
+::res://prefabs/::1719326735
+enemy.tscn::PackedScene::2324345480346875128::1719326734::0::1::::<><>::res://scripts/enemy.gd<>uid://cel513wglmtm::::res://assets/blue_beetle.png<>uid://b5dsxe7dn5mje::::res://assets/fish2Texture.png<>uid://bf7lnf0fq17ws::::res://assets/fish.png
+hud.tscn::PackedScene::2608023083517302724::1719326735::0::1::::<><>::res://scripts/hud.gd<>uid://cmglar6q1aa6l::::res://btn_styles.tres<>uid://36tvaqe8dtvc::::res://font/Super Smash TV.ttf<>uid://bq2sqb1u1l5ve::::res://addons/virtual_joystick/test/test.tscn
+player.tscn::PackedScene::8497436950007315830::1719326734::0::1::::<><>::res://scripts/player.gd<>uid://cygv6va07a827::::res://assets/player_idle-01.png<>uid://pprymfll6xm8::::res://assets/player_idle-02.png<>uid://2hytw5mf332::::res://assets/player_idle-03.png<>uid://ders0i18yuvii::::res://assets/player_move-01.png<>uid://ddhvkm02crdyg::::res://assets/player_move-02.png<>uid://suwb8m78h7ty::::res://assets/player_down-01.png<>uid://h272s26e08hc::::res://assets/player_down-02.png<>uid://bv22jkmqp6855::::res://assets/player_up-01.png<>uid://dil2qiwuadvwv::::res://assets/player_up-02.png
+::res://scripts/::1719326197
 enemy.gd::GDScript::-1::1719323017::0::1::::<>RigidBody2D<>::
-hud.gd::GDScript::-1::1719323017::0::1::::<>CanvasLayer<>::
-main.gd::GDScript::-1::1719323017::0::1::::<>Node2D<>::
+hud.gd::GDScript::-1::1719325935::0::1::::<>CanvasLayer<>::
+main.gd::GDScript::-1::1719326197::0::1::::<>Node2D<>::
 player.gd::GDScript::-1::1719323017::0::1::::<>Area2D<>::
-::res://shaders/::1719324055
-scrolling_bg.gdshader::Shader::-1::1719324055::0::1::::<><>::
+::res://shaders/::1719326735
+scrolling_bg.gdshader::Shader::-1::1719326735::0::1::::<><>::
 ::res://sounds/::1719323046
 FASTER-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3::AudioStreamMP3::5493734210762736769::1719323017::1719323045::1::::<><>::
 gameover.wav::AudioStreamWAV::3785421726515513060::1719323017::1719323046::1::::<><>::
