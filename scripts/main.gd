@@ -7,11 +7,10 @@ var aux:bool = true
 
 func _process(_delta):
 	if score == 10 and aux:
-		$BG.texture = load("res://assets/bg2.png")
+		$BG.texture = load("res://assets/bg1.jpeg")
 		$BgMusic.stream = load("res://sounds/FASTER-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3")
 		$BgMusic.play()
 		aux = false
-		$BG.material.set_shader_parameter("speed", 5)
 		$player.SPEED = 600
 		
 func game_over():
@@ -21,8 +20,7 @@ func game_over():
 	$gameOverSound.play()
 	
 func new_game():
-	$BG.texture = load("res://assets/bg.png")
-	$BG.material.set_shader_parameter("speed", 1)
+	$BG.texture = load("res://assets/bg1.jpeg")
 	aux = true
 	$player.start_pos($StartPosition.position)
 	score = 0

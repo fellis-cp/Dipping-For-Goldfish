@@ -16,7 +16,7 @@ func show_game_over():
 	show_message("Game Over")
 	await message_timer.timeout
 	
-	message_label.text = "Catch The Golden Bugs"
+	message_label.text = "Dipping for Goldfish"
 	message_label.show()
 	
 	await get_tree().create_timer(1.0).timeout
