@@ -20,7 +20,7 @@ script = ExtResource("1_qyoic")
 bug_scene = ExtResource("2_dpjfb")
 
 [node name="BG" type="TextureRect" parent="."]
-modulate = Color(1, 0.447059, 0.631373, 0.572549)
+modulate = Color(1, 1, 1, 0.47451)
 clip_contents = true
 anchors_preset = 3
 anchor_left = 1.0
