@@ -64,18 +64,18 @@ vertical_alignment = 1
 
 [node name="MessageLabel" type="Label" parent="Control"]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -36.0
-offset_top = -128.0
-offset_right = 44.0
-offset_bottom = 133.0
+anchors_preset = -1
+anchor_left = 0.506
+anchor_top = 0.394
+anchor_right = 0.506
+anchor_bottom = 0.394
+offset_left = -31.88
+offset_top = -137.68
+offset_right = 40.12
+offset_bottom = 287.32
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_color = Color(0.685248, 0.750183, 0.995413, 1)
 theme_override_fonts/font = ExtResource("2_t80sb")
 theme_override_font_sizes/font_size = 100
 text = "Catch the golden fish"
@@ -85,19 +85,20 @@ autowrap_mode = 2
 
 [node name="MessageLabel" type="Label" parent="Control/MessageLabel"]
 layout_mode = 1
-anchors_preset = 8
+anchors_preset = -1
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -213.0
-offset_top = -489.5
-offset_right = 633.0
-offset_bottom = 740.5
+offset_left = -148.0
+offset_top = -174.5
+offset_right = 698.0
+offset_bottom = 1097.5
 grow_horizontal = 2
 grow_vertical = 2
+rotation = 0.270526
 scale = Vector2(0.5, 0.5)
-theme_override_colors/font_color = Color(1, 0.802055, 0.0626138, 1)
+theme_override_colors/font_color = Color(0.756863, 0.796078, 0.117647, 1)
 theme_override_fonts/font = ExtResource("2_t80sb")
 theme_override_font_sizes/font_size = 100
 text = "金魚すくい, 金魚掬い"
@@ -111,10 +112,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -102.0
-offset_top = -656.0
-offset_right = 123.0
-offset_bottom = -592.0
+offset_left = -105.0
+offset_top = -639.0
+offset_right = 120.0
+offset_bottom = -575.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -131,10 +132,13 @@ shortcut = SubResource("Shortcut_udsat")
 text = "start"
 
 [node name="Test" parent="Control" instance=ExtResource("4_23466")]
+visible = false
 
 [node name="MessageTimer" type="Timer" parent="."]
 wait_time = 2.0
 one_shot = true
+
+[node name="AudioListener2D" type="AudioListener2D" parent="."]
 
 [connection signal="pressed" from="Control/StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="timeout" from="MessageTimer" to="." method="_on_message_timer_timeout"]

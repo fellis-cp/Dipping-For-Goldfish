@@ -4,13 +4,18 @@ signal start_game
 @onready var score_label = $Control/ScoreLabel
 @onready var message_label = $Control/MessageLabel
 @onready var start_button = $Control/StartButton
-@onready var message_timer = $MessageTimer
+@onready var message_timer = $MessageTimer	
+@onready var virtual_joystick = $"Control/Test/UI/Virtual joystick left"
 
+
+func _ready(): 
+	virtual_joystick.visible = false
 
 func show_message(text):
 	message_label.text = text
 	message_label.show()
 	message_timer.start()
+	virtual_joystick.visible = false
 	
 func show_game_over():
 	show_message("Game Over")
@@ -28,6 +33,14 @@ func update_score(score):
 func _on_start_button_pressed():
 	start_button.hide()
 	start_game.emit()
+	virtual_joystick.visible = true
 	
 func _on_message_timer_timeout():
 	message_label.hide()
+	
+
+	
+
+	
+ 
+	

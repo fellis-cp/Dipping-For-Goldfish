@@ -1,5 +1,7 @@
 extends Node2D
 
+@onready var virtual_joystick = $"Control/Test/UI/Virtual joystick left"
+
 @export var bug_scene : PackedScene
 var score:int = 0
 var aux:bool = true
@@ -58,3 +60,4 @@ func _on_player_collected():
 	score += 1	
 	$HUD.update_score(score)
 	$collected.play()
+	
