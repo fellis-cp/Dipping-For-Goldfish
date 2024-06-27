@@ -1,7 +1,5 @@
 res://main.tscn
-res://prefabs/enemy.tscn
-res://prefabs/player.tscn
-res://prefabs/hud.tscn
 res://shaders/scrolling_bg.gdshader
-res://scripts/main.gd
-res://scripts/hud.gd
+res://prefabs/player.tscn
+res://prefabs/enemy.tscn
+res://prefabs/hud.tscn

@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://cvhe71gedut4a"]
+[gd_scene load_steps=10 format=3 uid="uid://cvhe71gedut4a"]
 
 [ext_resource type="PackedScene" uid="uid://dtchssdwcqx8y" path="res://prefabs/player.tscn" id="1_2ywvt"]
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_qyoic"]
 [ext_resource type="PackedScene" uid="uid://8d6vo3aalfee" path="res://prefabs/enemy.tscn" id="2_dpjfb"]
+[ext_resource type="Texture2D" uid="uid://dpy3srnbhitnh" path="res://assets/12.png" id="3_noxdo"]
 [ext_resource type="PackedScene" uid="uid://bdfl02ttuamum" path="res://prefabs/hud.tscn" id="4_ljcii"]
 [ext_resource type="AudioStream" uid="uid://bt6xlwitqoprw" path="res://sounds/gameover.wav" id="7_fchv6"]
 [ext_resource type="AudioStream" uid="uid://dllsfuffoylqu" path="res://sounds/Slower-Tempo-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3" id="8_alump"]
@@ -25,11 +26,13 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -1.0
-offset_right = 489.0
-offset_bottom = 725.0
+offset_left = -7.0
+offset_top = -4.0
+offset_right = 483.0
+offset_bottom = 721.0
 grow_horizontal = 0
 grow_vertical = 0
+texture = ExtResource("3_noxdo")
 
 [node name="player" parent="." instance=ExtResource("1_2ywvt")]
 position = Vector2(240, 360)
