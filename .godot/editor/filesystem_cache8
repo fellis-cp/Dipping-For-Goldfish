@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719497636
+::res://::1719502726
 btn_styles.tres::StyleBoxFlat::5628162586034982409::1719323017::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1719492813::0::1::::<><>::
 icon.svg::CompressedTexture2D::3468784845933976024::1719323017::1719323045::1::::<><>::
-main.tscn::PackedScene::6261559116501813110::1719497636::0::1::::<><>::uid://dtchssdwcqx8y::::res://prefabs/player.tscn<>res://scripts/main.gd<>uid://8d6vo3aalfee::::res://prefabs/enemy.tscn<>uid://dpy3srnbhitnh::::res://assets/12.png<>uid://bdfl02ttuamum::::res://prefabs/hud.tscn<>uid://bt6xlwitqoprw::::res://sounds/gameover.wav<>uid://dllsfuffoylqu::::res://sounds/Slower-Tempo-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3<>uid://cqvqmjo0hwop5::::res://sounds/jumping.wav
+main.tscn::PackedScene::6261559116501813110::1719502726::0::1::::<><>::uid://dtchssdwcqx8y::::res://prefabs/player.tscn<>res://scripts/main.gd<>uid://8d6vo3aalfee::::res://prefabs/enemy.tscn<>uid://dpy3srnbhitnh::::res://assets/12.png<>uid://bdfl02ttuamum::::res://prefabs/hud.tscn<>uid://d4i43iph5pkxe::::res://sounds/House In a Forest Loop.ogg<>uid://bt6xlwitqoprw::::res://sounds/gameover.wav<>uid://cqvqmjo0hwop5::::res://sounds/jumping.wav
 README.md::TextFile::-1::1719327236::0::1::::<><>::
 ::res://addons/::1719323017
 ::res://addons/virtual_joystick/::1719323045
@@ -13,55 +13,41 @@ virtual_joystick_icon.png::CompressedTexture2D::260911808592511340::1719323017::
 virtual_joystick_instantiator.gd::GDScript::-1::1719323017::0::1::::<>Control<>::
 virtual_joystick_plugin.gd::GDScript::-1::1719323017::0::1::::<>EditorPlugin<>::
 virtual_joystick_scene.tscn::PackedScene::8038149555967335895::1719323017::0::1::::<><>::res://addons/virtual_joystick/virtual_joystick.gd<>uid://bm30au8mjfc2f::::res://addons/virtual_joystick/textures/joystick_base_outline.png<>uid://dt13r06u87fib::::res://addons/virtual_joystick/textures/joystick_tip_arrows.png
-::res://addons/virtual_joystick/test/::1719323017
+::res://addons/virtual_joystick/test/::1719501179
 player.gd::GDScript::-1::1719323017::0::1::::<>Sprite2D<>::
-test.tscn::PackedScene::3566301953465693758::1719323017::0::1::::<><>::uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn
+test.tscn::PackedScene::3566301953465693758::1719501179::0::1::::<><>::uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn
 ::res://addons/virtual_joystick/textures/::1719323045
 joystick_base_outline.png::CompressedTexture2D::3288008411285325467::1719323017::1719323045::1::::<><>::
 joystick_tip.png::CompressedTexture2D::3132432681801126628::1719323017::1719323045::1::::<><>::
 joystick_tip_arrows.png::CompressedTexture2D::8548255698028078709::1719323017::1719323045::1::::<><>::
-::res://assets/::1719497672
+::res://assets/::1719502638
 2d-fishnet-pixilart.png::CompressedTexture2D::1851759864254070028::1719497662::1719497674::1::::<><>::
 12.png::CompressedTexture2D::8263372904869509149::1719324154::1719324161::1::::<><>::
 bg1.jpeg::CompressedTexture2D::3295272433589446514::1719321395::1719323125::1::::<><>::
 bg2.png::CompressedTexture2D::3259345667601163161::1719323017::1719323045::1::::<><>::
 bg.png::CompressedTexture2D::2238660106244251833::1719323017::1719323045::1::::<><>::
-blue_beetle.png::CompressedTexture2D::149358068899553466::1719323017::1719323045::1::::<><>::
 f8feae25f0ca234a3b69d038f26bba6d.png::CompressedTexture2D::5728767968323234897::1719323949::1719323951::1::::<><>::
 fish1Texture.png::CompressedTexture2D::1535732861647205283::1704687322::1719326482::1::::<><>::
 fish2Texture.png::CompressedTexture2D::4499413364907874694::1704687198::1719326482::1::::<><>::
 fish3Texture.png::CompressedTexture2D::8218237751697459632::1704687244::1719326482::1::::<><>::
 fish4Texture.png::CompressedTexture2D::7580702292660189576::1704687400::1719326482::1::::<><>::
-fish.png::CompressedTexture2D::2804116393740849838::1719326803::1719326807::1::::<><>::
-game-title.png::CompressedTexture2D::6460561579186461562::1719323017::1719323046::1::::<><>::
-player_down-01.png::CompressedTexture2D::1306026053507098726::1719323017::1719323045::1::::<><>::
-player_down-02.png::CompressedTexture2D::549052253574685980::1719323017::1719323045::1::::<><>::
-player_idle-01.png::CompressedTexture2D::6471091401851525978::1719323017::1719323045::1::::<><>::
-player_idle-02.png::CompressedTexture2D::1084874007332088413::1719323017::1719323045::1::::<><>::
-player_idle-03.png::CompressedTexture2D::56207110671375211::1719323017::1719323045::1::::<><>::
-player_move-01.png::CompressedTexture2D::7476249860051835308::1719323017::1719323045::1::::<><>::
-player_move-02.png::CompressedTexture2D::7385572811189377162::1719323017::1719323045::1::::<><>::
-player_up-01.png::CompressedTexture2D::3917780574920657542::1719323017::1719323045::1::::<><>::
-player_up-02.png::CompressedTexture2D::7745149342066742381::1719323017::1719323045::1::::<><>::
-red_beetle.png::CompressedTexture2D::3594943807819105139::1719323017::1719323045::1::::<><>::
-yellow_beetle.png::CompressedTexture2D::2341890751475157119::1719323017::1719323045::1::::<><>::
-::res://assets/Fish/::1719326458
 ::res://font/::1719323045
 Super Smash TV.ttf::FontFile::2030474481718177472::1719323017::1719323045::1::::<><>::
-::res://prefabs/::1719497655
-enemy.tscn::PackedScene::2324345480346875128::1719497636::0::1::::<><>::res://scripts/enemy.gd<>uid://dpc8f7m8slrvk::::res://assets/fish3Texture.png<>uid://b5dsxe7dn5mje::::res://assets/fish2Texture.png<>uid://v46kcanvohe6::::res://assets/fish1Texture.png
-hud.tscn::PackedScene::2608023083517302724::1719497637::0::1::::<><>::res://scripts/hud.gd<>uid://cmglar6q1aa6l::::res://btn_styles.tres<>uid://36tvaqe8dtvc::::res://font/Super Smash TV.ttf<>uid://bq2sqb1u1l5ve::::res://addons/virtual_joystick/test/test.tscn
-player.tscn::PackedScene::8497436950007315830::1719497655::0::1::::<><>::res://scripts/player.gd<>uid://d2x7iymym6wg4::::res://assets/pixil-frame-0.png
-::res://scripts/::1719497655
+::res://prefabs/::1719502726
+enemy.tscn::PackedScene::2324345480346875128::1719502726::0::1::::<><>::res://scripts/enemy.gd<>uid://dpc8f7m8slrvk::::res://assets/fish3Texture.png<>uid://b5dsxe7dn5mje::::res://assets/fish2Texture.png<>uid://v46kcanvohe6::::res://assets/fish1Texture.png
+hud.tscn::PackedScene::2608023083517302724::1719502726::0::1::::<><>::res://scripts/hud.gd<>uid://cmglar6q1aa6l::::res://btn_styles.tres<>uid://36tvaqe8dtvc::::res://font/Super Smash TV.ttf<>uid://bq2sqb1u1l5ve::::res://addons/virtual_joystick/test/test.tscn
+player.tscn::PackedScene::8497436950007315830::1719502726::0::1::::<><>::res://scripts/player.gd<>uid://1nahj4rrnft1::::res://assets/2d-fishnet-pixilart.png
+::res://scripts/::1719502349
 enemy.gd::GDScript::-1::1719323017::0::1::::<>RigidBody2D<>::
-hud.gd::GDScript::-1::1719325935::0::1::::<>CanvasLayer<>::
-main.gd::GDScript::-1::1719326197::0::1::::<>Node2D<>::
+hud.gd::GDScript::-1::1719501972::0::1::::<>CanvasLayer<>::
+main.gd::GDScript::-1::1719502349::0::1::::<>Node2D<>::
 player.gd::GDScript::-1::1719497655::0::1::::<>Area2D<>::
-::res://shaders/::1719497655
-scrolling_bg.gdshader::Shader::-1::1719497655::0::1::::<><>::
-::res://sounds/::1719323046
+::res://shaders/::1719502726
+scrolling_bg.gdshader::Shader::-1::1719502726::0::1::::<><>::
+::res://sounds/::1719502805
 FASTER-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3::AudioStreamMP3::5493734210762736769::1719323017::1719323045::1::::<><>::
 gameover.wav::AudioStreamWAV::3785421726515513060::1719323017::1719323046::1::::<><>::
-House In a Forest Loop.ogg::AudioStreamOggVorbis::9213064777351892402::1719323017::1719323045::1::::<><>::
+home.mp3::AudioStreamMP3::8461602028725294372::1719499707::1719502808::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::9213064777351892402::1719323017::1719498583::1::::<><>::
 jumping.wav::AudioStreamWAV::5940208195324632212::1719323017::1719323046::1::::<><>::
 Slower-Tempo-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3::AudioStreamMP3::7955150379669505120::1719323017::1719323045::1::::<><>::

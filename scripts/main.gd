@@ -13,7 +13,7 @@ func _process(_delta):
 		$BgMusic.stream = load("res://sounds/FASTER-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3")
 		$BgMusic.play()
 		aux = false
-		$player.SPEED = 600
+		$player.SPEED = 500
 		
 func game_over():
 	$BugTimer.stop()

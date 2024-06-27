@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://8d6vo3aalfee" path="res://prefabs/enemy.tscn" id="2_dpjfb"]
 [ext_resource type="Texture2D" uid="uid://dpy3srnbhitnh" path="res://assets/12.png" id="3_noxdo"]
 [ext_resource type="PackedScene" uid="uid://bdfl02ttuamum" path="res://prefabs/hud.tscn" id="4_ljcii"]
-[ext_resource type="AudioStream" uid="uid://d4i43iph5pkxe" path="res://sounds/House In a Forest Loop.ogg" id="7_0dq64"]
+[ext_resource type="AudioStream" uid="uid://dss4l4vj3tsiu" path="res://sounds/home.mp3" id="7_cvqtl"]
 [ext_resource type="AudioStream" uid="uid://bt6xlwitqoprw" path="res://sounds/gameover.wav" id="7_fchv6"]
 [ext_resource type="AudioStream" uid="uid://cqvqmjo0hwop5" path="res://sounds/jumping.wav" id="8_fv3ka"]
 
@@ -20,7 +20,7 @@ script = ExtResource("1_qyoic")
 bug_scene = ExtResource("2_dpjfb")
 
 [node name="BG" type="TextureRect" parent="."]
-modulate = Color(0.939579, 0.718567, 0.90842, 0.384314)
+modulate = Color(1, 0.447059, 0.631373, 0.572549)
 clip_contents = true
 anchors_preset = 3
 anchor_left = 1.0
@@ -59,7 +59,7 @@ curve = SubResource("Curve2D_ejit6")
 stream = ExtResource("7_fchv6")
 
 [node name="BgMusic" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("7_0dq64")
+stream = ExtResource("7_cvqtl")
 volume_db = 1.0
 autoplay = true
 
