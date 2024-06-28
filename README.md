@@ -1,11 +1,17 @@
 # Dipping For Goldfish
 <div align="center" width=>
-  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Dipping For Goldfish" 
-    ![image](https://github.com/fellis-cp/Dipping-For-Goldfish/assets/60042724/6f11741e-de9e-4e91-b0ba-0928a54298cf)
-width="600" height="800">
+  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Dipping For Goldfish" width="600" height="800">
 </div
-## Deskripsi Game
 
+<div align="center" width=>
+ ![Screenshot 2024-06-28 214939](https://github.com/fellis-cp/Dipping-For-Goldfish/assets/60042724/5b031b5b-2206-4ce3-80a9-e3f36320687c)alt="Dipping For Goldfish" width="600" height="800">
+</div
+
+
+
+  
+## Deskripsi Game
+  
 Dipping For Goldfish adalah sebuah permainan yang menggabungkan keseruan dan tantangan dalam menangkap ikan emas. Dibuat menggunakan mesin game Godot 4.2.2, game ini menawarkan berbagai fitur menarik yang akan membuat pemain tetap terlibat.
 
 ### Fitur Utama
