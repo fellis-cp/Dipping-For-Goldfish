@@ -1,6 +1,8 @@
 # Dipping For Goldfish
 <div align="center" width=>
-  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Dipping For Goldfish" width="600" height="800">
+  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Dipping For Goldfish" 
+    ![image](https://github.com/fellis-cp/Dipping-For-Goldfish/assets/60042724/6f11741e-de9e-4e91-b0ba-0928a54298cf)
+width="600" height="800">
 </div
 ## Deskripsi Game
 
