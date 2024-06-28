@@ -18,7 +18,7 @@ func show_message(text):
 	virtual_joystick.visible = false
 	
 func show_game_over():
-	show_message("Game Over")
+	show_message("Yah kalah")
 	await message_timer.timeout
 	
 	message_label.text = "Dipping for Goldfish"

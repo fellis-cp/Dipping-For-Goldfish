@@ -35,7 +35,7 @@ func new_game():
 	$player.start_pos($StartPosition.position)
 	score = 0
 	$HUD.update_score(score)
-	$HUD.show_message("Get Ready")
+	$HUD.show_message("Siap Siap")
 	get_tree().call_group("bugs", "queue_free")
 	$BgMusic.stream = load("res://sounds/slower.mp3")
 	$BgMusic.play()
