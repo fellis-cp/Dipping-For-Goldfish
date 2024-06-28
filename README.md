@@ -1,10 +1,8 @@
-# Dipping For Goldfish
-<div align="center" width="600">
-  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Dipping For Goldfish" width="600" height="800">
-</div>
 
-<div align="center" width="600">
-  <img src="https://github.com/fellis-cp/Dipping-For-Goldfish/assets/60042724/d76ae87c-64aa-4362-b36c-fbe9cc1c2819" alt="Screenshot 2024-06-28 214939" width="600" height="800">
+# Dipping For Goldfish
+<div align="center">
+  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Dipping For Goldfish" width="400" height="533">
+  <img src="https://github.com/fellis-cp/Dipping-For-Goldfish/assets/60042724/d76ae87c-64aa-4362-b36c-fbe9cc1c2819" alt="Screenshot 2024-06-28 214939" width="400" height="533">
 </div>
 
 
