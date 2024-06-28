@@ -5,11 +5,20 @@ extends Node2D
 var score:int = 0
 var aux:bool = true
 
+@onready var video_player: VideoStreamPlayer = $VideoStreamPlayer
+@onready var hud: CanvasLayer = $HUD
+
+func _ready():
+	video_player.finished.connect(_on_video_finished)
+	hud.visible = false  # Hide the HUD initially
+
+func _on_video_finished():
+	hud.visible = true  # Show the HUD when the video finishes
 
 func _process(_delta):
 	if score == 10 and aux:
 		$BG.texture = load("res://assets/bg1.jpeg")
-		$BgMusic.stream = load("res://sounds/FASTER-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3")
+		$BgMusic.stream = load("res://sounds/faster.mp3")
 		$BgMusic.play()
 		aux = false
 		$player.SPEED = 500
@@ -28,7 +37,7 @@ func new_game():
 	$HUD.update_score(score)
 	$HUD.show_message("Get Ready")
 	get_tree().call_group("bugs", "queue_free")
-	$BgMusic.stream = load("res://sounds/Slower-Tempo-2020-03-22_-_A_Bit_Of_Hope_-_David_Fesliyan.mp3")
+	$BgMusic.stream = load("res://sounds/slower.mp3")
 	$BgMusic.play()
 	$StartTimer.start()
 	
@@ -59,4 +68,5 @@ func _on_player_collected():
 	score += 1	
 	$HUD.update_score(score)
 	$collected.play()
+	
 	

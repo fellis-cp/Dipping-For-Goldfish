@@ -1,0 +1,77 @@
+[gd_scene load_steps=10 format=3 uid="uid://cvhe71gedut4a"]
+
+[ext_resource type="PackedScene" uid="uid://dtchssdwcqx8y" path="res://prefabs/player.tscn" id="1_2ywvt"]
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_qyoic"]
+[ext_resource type="PackedScene" uid="uid://8d6vo3aalfee" path="res://prefabs/enemy.tscn" id="2_dpjfb"]
+[ext_resource type="Texture2D" uid="uid://dpy3srnbhitnh" path="res://assets/12.png" id="3_noxdo"]
+[ext_resource type="PackedScene" uid="uid://bdfl02ttuamum" path="res://prefabs/hud.tscn" id="4_ljcii"]
+[ext_resource type="AudioStream" uid="uid://dss4l4vj3tsiu" path="res://sounds/home.mp3" id="7_cvqtl"]
+[ext_resource type="AudioStream" uid="uid://bt6xlwitqoprw" path="res://sounds/gameover.wav" id="7_fchv6"]
+[ext_resource type="AudioStream" uid="uid://cqvqmjo0hwop5" path="res://sounds/jumping.wav" id="8_fv3ka"]
+
+[sub_resource type="Curve2D" id="Curve2D_ejit6"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 480, 0, 0, 0, 0, 0, 480, 720, 0, 0, 0, 0, 0, 720, 0, 0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_qyoic")
+bug_scene = ExtResource("2_dpjfb")
+
+[node name="BG" type="TextureRect" parent="."]
+modulate = Color(1, 1, 1, 0.47451)
+clip_contents = true
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -7.0
+offset_top = -4.0
+offset_right = 483.0
+offset_bottom = 721.0
+grow_horizontal = 0
+grow_vertical = 0
+texture = ExtResource("3_noxdo")
+
+[node name="player" parent="." instance=ExtResource("1_2ywvt")]
+position = Vector2(240, 360)
+
+[node name="BugTimer" type="Timer" parent="."]
+wait_time = 0.5
+
+[node name="StartTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartPosition" type="Marker2D" parent="."]
+position = Vector2(240, 360)
+
+[node name="BugPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_ejit6")
+
+[node name="BugPathLocation" type="PathFollow2D" parent="BugPath"]
+
+[node name="HUD" parent="." instance=ExtResource("4_ljcii")]
+
+[node name="gameOverSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_fchv6")
+
+[node name="BgMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_cvqtl")
+volume_db = 1.0
+autoplay = true
+
+[node name="collected" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_fv3ka")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_right = 478.0
+offset_bottom = 715.0
+
+[connection signal="collected" from="player" to="." method="_on_player_collected"]
+[connection signal="hit" from="player" to="." method="game_over"]
+[connection signal="timeout" from="BugTimer" to="." method="_on_bug_timer_timeout"]
+[connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]
+[connection signal="start_game" from="HUD" to="." method="new_game"]

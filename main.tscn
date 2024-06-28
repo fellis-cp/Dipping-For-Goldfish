@@ -1,13 +1,14 @@
-[gd_scene load_steps=10 format=3 uid="uid://cvhe71gedut4a"]
+[gd_scene load_steps=11 format=3 uid="uid://cvhe71gedut4a"]
 
 [ext_resource type="PackedScene" uid="uid://dtchssdwcqx8y" path="res://prefabs/player.tscn" id="1_2ywvt"]
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_qyoic"]
 [ext_resource type="PackedScene" uid="uid://8d6vo3aalfee" path="res://prefabs/enemy.tscn" id="2_dpjfb"]
 [ext_resource type="Texture2D" uid="uid://dpy3srnbhitnh" path="res://assets/12.png" id="3_noxdo"]
 [ext_resource type="PackedScene" uid="uid://bdfl02ttuamum" path="res://prefabs/hud.tscn" id="4_ljcii"]
-[ext_resource type="AudioStream" uid="uid://dss4l4vj3tsiu" path="res://sounds/home.mp3" id="7_cvqtl"]
 [ext_resource type="AudioStream" uid="uid://bt6xlwitqoprw" path="res://sounds/gameover.wav" id="7_fchv6"]
+[ext_resource type="AudioStream" uid="uid://cvun81rjjepid" path="res://sounds/main-menu.mp3" id="8_evtrl"]
 [ext_resource type="AudioStream" uid="uid://cqvqmjo0hwop5" path="res://sounds/jumping.wav" id="8_fv3ka"]
+[ext_resource type="VideoStream" path="res://assets/MAIN.ogv" id="9_r5ghc"]
 
 [sub_resource type="Curve2D" id="Curve2D_ejit6"]
 _data = {
@@ -18,6 +19,28 @@ point_count = 5
 [node name="main" type="Node2D"]
 script = ExtResource("1_qyoic")
 bug_scene = ExtResource("2_dpjfb")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+top_level = true
+z_as_relative = false
+clip_contents = true
+layout_direction = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -34.0
+offset_top = -229.0
+offset_right = 574.0
+offset_bottom = 971.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stream = ExtResource("9_r5ghc")
+volume_db = -0.85
+autoplay = true
+expand = true
 
 [node name="BG" type="TextureRect" parent="."]
 modulate = Color(1, 1, 1, 0.47451)
@@ -59,7 +82,7 @@ curve = SubResource("Curve2D_ejit6")
 stream = ExtResource("7_fchv6")
 
 [node name="BgMusic" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("7_cvqtl")
+stream = ExtResource("8_evtrl")
 volume_db = 1.0
 autoplay = true
 

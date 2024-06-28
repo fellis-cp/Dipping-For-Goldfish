@@ -1,9 +1,7 @@
-res://prefabs/player.tscn
-res://shaders/scrolling_bg.gdshader
 res://main.tscn
+res://scripts/hud.gd
+res://shaders/scrolling_bg.gdshader
+res://prefabs/player.tscn
 res://prefabs/enemy.tscn
 res://prefabs/hud.tscn
-res://scripts/player.gd
-res://scripts/hud.gd
-res://addons/virtual_joystick/test/test.tscn
 res://scripts/main.gd
