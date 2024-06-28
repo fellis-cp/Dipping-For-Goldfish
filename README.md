@@ -1,12 +1,10 @@
-# Catch The Gold Fish
-
+# Dipping For Goldfish
 <div align="center" width=>
   <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Catch The Gold Fish" width="600" height="800">
-</div>
-
+</div
 ## Deskripsi Game
 
-Catch The Gold Fish adalah sebuah permainan yang menggabungkan keseruan dan tantangan dalam menangkap ikan emas. Dibuat menggunakan mesin game Godot 4.2.2, game ini menawarkan berbagai fitur menarik yang akan membuat pemain tetap terlibat.
+Dipping For Goldfish adalah sebuah permainan yang menggabungkan keseruan dan tantangan dalam menangkap ikan emas. Dibuat menggunakan mesin game Godot 4.2.2, game ini menawarkan berbagai fitur menarik yang akan membuat pemain tetap terlibat.
 
 ### Fitur Utama
 
