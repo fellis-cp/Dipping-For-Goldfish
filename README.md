@@ -1,6 +1,6 @@
 # Dipping For Goldfish
 <div align="center" width=>
-  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Catch The Gold Fish" width="600" height="800">
+  <img src="https://github.com/fellis-cp/Catch-The-Gold-Fish/assets/60042724/9646b8aa-eee6-407f-80b7-d26804c5f01e" alt="Dipping For Goldfish" width="600" height="800">
 </div
 ## Deskripsi Game
 
@@ -15,11 +15,11 @@ Dipping For Goldfish adalah sebuah permainan yang menggabungkan keseruan dan tan
 
 ## Instalasi
 
-Untuk memainkan Catch The Gold Fish, ikuti langkah-langkah berikut:
+Untuk memainkan Dipping For Goldfish, ikuti langkah-langkah berikut:
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/fellis-cp/Catch-The-Gold-Fish.git
+   git clone https://github.com/fellis-cp/Dipping-For-Goldfish.git
 2. Buka proyek dengan Godot 4.2.2.
 3. Klik tombol "Play" untuk memulai permainan.
 
