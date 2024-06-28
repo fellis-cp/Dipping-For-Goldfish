@@ -10,7 +10,7 @@
   
 ## Deskripsi Game
   
-Dipping For Goldfish adalah sebuah permainan yang menggabungkan keseruan dan tantangan dalam menangkap ikan emas. Dibuat menggunakan mesin game Godot 4.2.2, game ini menawarkan berbagai fitur menarik yang akan membuat pemain tetap terlibat.
+Dipping For Goldfish adalah sebuah permainan yang menggabungkan keseruan dan tantangan dalam menangkap ikan emas yang terinspirasi dari pasar malam (matsuri) di negara jepang . Dibuat menggunakan Godot 4.2.2, game ini menawarkan berbagai fitur menarik .
 
 ### Fitur Utama
 
